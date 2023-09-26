@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "RBook"
 include(":app")
+include(":feature:foryou")
+include(":core:domain")
