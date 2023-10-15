@@ -11,6 +11,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    versionCatalogs {
+        create("mycatalog") {
+            from(files("gradle/libs.versions.toml"))
+        }
+    }
 }
 
 rootProject.name = "RBook"
